@@ -7,3 +7,8 @@ Responsive Design: The keyboard is designed to adapt to different screen sizes, 
 Easy Integration: It can be integrated effortlessly into any web application or project, enhancing user interaction and accessibility.
 Accessibility: The keyboard enhances accessibility by providing an alternative input method, particularly beneficial for users with physical disabilities.
 Lightweight and Fast: Built with performance in mind, the keyboard is lightweight and ensures fast response times.
+
+
+# ScreenShots
+
+![image](https://github.com/imlnr/qwert-keyboard/assets/82680213/ac30aae7-e53f-4827-bf23-41564afbe210)
