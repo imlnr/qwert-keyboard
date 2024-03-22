@@ -1,14 +1,19 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-.text-area{
+
+.text-area {
     width: 90%;
-    height: 60px;
+    height: 100px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #ffffff;
+    font-size: 30px;
+    overflow: scroll;
+    caret-color: blue;
 }
-.container{
+
+.container {
     max-width: 100vw;
     min-height: 100vh;
     background-color: rgba(0, 255, 255, 0.185);
@@ -17,18 +22,20 @@
     align-items: center;
     justify-content: space-around;
 }
-.keyboard{
+
+.keyboard {
     width: 90%;
     height: 450px;
     background-color: white;
     border: 1px solid;
     padding: 2%;
     display: grid;
-    grid-template-columns:repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr);
     gap: 15px;
     border-radius: 30px;
 }
-.keyboard>div{
+
+.keyboard>div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,13 +43,23 @@
     border-radius: 12px;
     color: white;
     font-size: 1.5rem;
+    cursor: pointer;
 }
-.enter{
+
+.enter {
     grid-column: 11/span 2;
 }
-.shift{
+
+.shift {
     grid-column: 11/span 2;
 }
-.space{
+
+.space {
     grid-column: 5/span 4;
+}
+
+.caps-noti {
+    border: 3px solid;
+    margin-left: 8px;
+    border-radius: 50%;
 }
