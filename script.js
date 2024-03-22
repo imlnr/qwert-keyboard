@@ -12,6 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
             else if (button.textContent === 'Space') {
                 textArea.textContent += ' ';
             }
+            else if (button.textContent === 'Enter') {
+                textArea.textContent += '\n';
+            }
+            else if (button.textContent == 'tab') {
+                textArea.textContent += '\t';
+            }
             else if (button.textContent === 'Caps ') {
                 caps = !caps;
                 const capsNoti = document.querySelector('.caps-noti');
